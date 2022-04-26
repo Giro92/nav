@@ -1,0 +1,52 @@
+:root {
+    --body-bg: #F5F5FB;
+    --side-bg: #FFFFFF;
+    --box-bg: #C4C4C4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+}
+nav {
+    display: flex;
+    width: 15vw;
+    background-color: var(--side-bg);
+    height: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    width: 60vw;
+    background-color: var(--body-bg);
+    height: 100%;
+    padding: 10px;
+
+    
+}
+aside {
+    display: flex;
+    width: 25vw;
+    background-color: var(--side-bg);
+    height: 100%;
+}
+span {
+    background-color: var(--box-bg);
+    display: block;
+    margin: 5px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
